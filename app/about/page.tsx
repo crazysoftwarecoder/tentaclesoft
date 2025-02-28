@@ -142,9 +142,23 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold mb-1">Ashwanth Fernando</h3>
               <p className="text-sm text-muted-foreground mb-2">Founder & CEO</p>
-              <p className="text-center text-muted-foreground">
-                With over 20 years in software development across large scale tech companies and unicorn startups alike, he has a first hand experience on how to build software with the right dose of pragmatism that leads to greater velocity and faster time to market.
+              <p className="text-center text-muted-foreground mb-4">
+                With over 20 years in software development across large-scale tech companies and unicorn startups alike, he possesses a battle-tested mastery of building software with the perfect balance of pragmatism, communication, and humility. His expertise fuels unparalleled velocity and an accelerated time-to-market. From architecting search infrastructure at eBay and Canva to engineering real-time whiteboards and streaming presentations for Apple—optimized to run just above the bare metal—his contributions have shaped some of the most complex and high-impact systems in the industry.
               </p>
+              <p className="text-center text-muted-foreground mb-4">
+                No challenge is insurmountable, whether in technology or leadership. He seamlessly blends tactical execution with strategic foresight to craft world-class software that is not only robust and scalable but truly loved by customers.
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Search Infrastructure</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Distributed Systems</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Technical Leadership</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Java</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Golang</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Python</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Scala</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">GraphQL</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Kotlin</span>
+              </div>
             </div>
             <div className="flex flex-col items-center p-6 bg-muted rounded-lg shadow-sm">
               <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden">
@@ -165,12 +179,13 @@ export default function AboutPage() {
                 Specialising in revenue growth, Romain has been instrumental in driving innovation, enabling customers to achieve up to $70 million in annual recurring revenue (ARR). With extensive expertise in front-end development and mobile applications, Romain combines technical excellence with strategic insight to build high-performing, scalable systems that meet business goals.
               </p>
               <div className="flex flex-wrap gap-2 justify-center">
-                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">TypeScript</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">TypeScript/Node</span>
                 <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Rust</span>
-                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Java</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Swift</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Kotlin</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Objective-C</span>
                 <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">React</span>
                 <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">React Native</span>
-                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Node.js</span>
               </div>
             </div>
           </div>

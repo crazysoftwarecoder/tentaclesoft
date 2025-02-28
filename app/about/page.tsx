@@ -29,14 +29,22 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Story</h2>
                 <p className="text-muted-foreground md:text-lg">
-                  Tentacle Soft was founded with a simple mission: to help businesses bring their software ideas to
-                  life. We saw that many companies struggled to find reliable partners who could quickly build
-                  high-quality POCs and MVPs, so we decided to fill that gap.
+                  Tentacle Soft was founded with a simple mission: to help businesses bring their software ideas to life. 
+                  Our team has extensive experience working across the world in Silicon Valley, Sydney, and India, 
+                  contributing to some of the biggest tech companies and unicorn startups, including eBay, Apple, Canva, 
+                  WalmartLabs, and Atlassian. We have built many large-scale distributed systems at scale and deeply 
+                  understand what it takes to deliver robust, high-performing software.
                 </p>
                 <p className="text-muted-foreground md:text-lg">
-                  Our team brings together expertise in front-end, backend, and large-scale systems development,
-                  allowing us to tackle projects of any size and complexity. We pride ourselves on our ability to
-                  understand our clients' needs and deliver solutions that exceed their expectations.
+                  Frustrated by the bureaucracy and needless processes in organizations designed to limit chaos, we set 
+                  out to create an environment that prioritizes competence and efficiency. We believe that by raising 
+                  the bar on pragmatism, we can significantly enhance execution and innovation.
+                </p>
+                <p className="text-muted-foreground md:text-lg">
+                  With expertise spanning front-end, back-end, and large-scale systems development, we can tackle 
+                  projects of any size and complexity. We pride ourselves on our ability to understand our clients' 
+                  needs and deliver solutions that exceed expectations, helping businesses rapidly build high-quality 
+                  POCs and MVPs with agility and precision.
                 </p>
               </div>
             </div>

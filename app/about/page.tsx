@@ -158,9 +158,20 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold mb-1">Romain Francez</h3>
               <p className="text-sm text-muted-foreground mb-2">CTO</p>
-              <p className="text-center text-muted-foreground">
-                A world class front end and mobile architect/engineer that's worked at Canva, UBank and many other tech companies in Australia, UK and France.
+              <p className="text-center text-muted-foreground mb-4">
+                Romain is a seasoned technology leader with a wealth of experience working with globally renowned brands such as Canva, Capital One, and Experian. Having held key roles, Romain has successfully delivered impactful solutions across multiple continents and countries, including the UK, USA, France, Canada, and Australia.
               </p>
+              <p className="text-center text-muted-foreground mb-4">
+                Specialising in revenue growth, Romain has been instrumental in driving innovation, enabling customers to achieve up to $70 million in annual recurring revenue (ARR). With extensive expertise in front-end development and mobile applications, Romain combines technical excellence with strategic insight to build high-performing, scalable systems that meet business goals.
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">TypeScript</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Rust</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Java</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">React</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">React Native</span>
+                <span className="px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">Node.js</span>
+              </div>
             </div>
           </div>
         </div>

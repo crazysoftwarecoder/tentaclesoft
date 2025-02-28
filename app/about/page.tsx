@@ -163,10 +163,10 @@ export default function AboutPage() {
             <div className="flex flex-col items-center p-6 bg-muted rounded-lg shadow-sm">
               <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=96&width=96"
+                  src="/romain.png?height=192&width=192"
                   alt="Team Member"
-                  width={96}
-                  height={96}
+                  width={192}
+                  height={192}
                   className="object-cover"
                 />
               </div>

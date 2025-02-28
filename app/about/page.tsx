@@ -129,7 +129,7 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <div className="flex flex-col items-center p-6 bg-muted rounded-lg shadow-sm">
               <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden">
                 <Image
@@ -140,10 +140,10 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1">John Doe</h3>
+              <h3 className="text-xl font-bold mb-1">Ashwanth Fernando</h3>
               <p className="text-sm text-muted-foreground mb-2">Founder & CEO</p>
               <p className="text-center text-muted-foreground">
-                With over 15 years of experience in software development, John leads our team with vision and expertise.
+                With over 20 years in software development across large scale tech companies and unicorn startups alike, he has a first hand experience on how to build software with the right dose of pragmatism that leads to greater velocity and faster time to market.
               </p>
             </div>
             <div className="flex flex-col items-center p-6 bg-muted rounded-lg shadow-sm">
@@ -156,26 +156,10 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1">Jane Smith</h3>
+              <h3 className="text-xl font-bold mb-1">Romain Francez</h3>
               <p className="text-sm text-muted-foreground mb-2">CTO</p>
               <p className="text-center text-muted-foreground">
-                Jane is a technical genius with a passion for solving complex problems and building scalable systems.
-              </p>
-            </div>
-            <div className="flex flex-col items-center p-6 bg-muted rounded-lg shadow-sm">
-              <div className="relative w-24 h-24 mb-4 rounded-full overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=96&width=96"
-                  alt="Team Member"
-                  width={96}
-                  height={96}
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-1">Mike Johnson</h3>
-              <p className="text-sm text-muted-foreground mb-2">Lead Developer</p>
-              <p className="text-center text-muted-foreground">
-                Mike is a full-stack developer with expertise in both front-end and backend technologies.
+                A world class front end and mobile architect/engineer that's worked at Canva, UBank and many other tech companies in Australia, UK and France.
               </p>
             </div>
           </div>

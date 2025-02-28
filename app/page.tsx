@@ -13,10 +13,10 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Turning Ideas Into Exceptional Software
+                  Turning Ideas Into World-Class Software
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  We build high-quality POCs and MVPs for businesses that need custom software solutions.
+                We are the top 1% of engineers, building high-quality POCs and MVPs—then taking them all the way to production and beyond. With a proven track record of delivering scalable solutions for flagship tech companies, we provide end-to-end development and post-production support to ensure long-term success.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

@@ -93,9 +93,9 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact Us</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact Our Sydney Office</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                Have a question or want to discuss a project? Get in touch with our team.
+                Looking for expert software development in Australia? Our Sydney-based team is ready to help turn your ideas into reality.
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function ContactPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Get in Touch</h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Fill out the form and we'll get back to you as soon as possible.
+                  Based in Sydney, we work with clients across Australia and Asia-Pacific. Let's discuss your next project.
                 </p>
               </div>
               <div className="space-y-4">
@@ -131,8 +131,9 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <MapPin className="mr-4 h-6 w-6 text-primary flex-shrink-0" />
                   <div>
-                    <h3 className="font-medium">Address</h3>
-                    <p className="text-muted-foreground">Sydney, Australia</p>
+                    <h3 className="font-medium">Registered Office</h3>
+                    <p className="text-muted-foreground">Sydney CBD, New South Wales 2000</p>
+                    <p className="text-muted-foreground">Australia</p>
                   </div>
                 </div>
               </div>
@@ -202,7 +203,9 @@ export default function ContactPage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Location</h2>
-              <p className="max-w-[700px] text-muted-foreground md:text-xl">Visit us at our office in San Francisco.</p>
+              <p className="max-w-[700px] text-muted-foreground md:text-xl">
+                Visit our office in the heart of Sydney's Central Business District.
+              </p>
             </div>
           </div>
           <div className="aspect-video w-full rounded-lg overflow-hidden shadow-lg">

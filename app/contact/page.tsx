@@ -32,13 +32,19 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     try {
-      // In a real implementation, you would send this data to your API route
-      // For now, we'll simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
 
-      // This is where you would normally send the email
-      console.log("Sending email to: senditmoiway@gmail.com")
-      console.log("Form data:", formData)
+      const data = await response.json()
+
+      if (!data.success) {
+        throw new Error('Failed to send email')
+      }
 
       toast({
         title: "Message sent!",

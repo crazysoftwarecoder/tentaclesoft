@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 // Log on module load
 console.log('API Route module loaded');
 
-const resend = new Resend('re_jZTVUQVz_MKPKNDuuuAfZPT6pcR7cvRcK');
+const resend = new Resend('re_7bMrk522_81Q94cN3wREnQRN9we9gCU91');
 
 export async function POST(request: Request) {
   // Basic console log that should appear in server logs
@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
-      to: ['senditmoiway@gmail.com'],
+      to: ['ashwanthfernando@gmail.com'],
       subject: `Contact Form: ${subject}`,
       replyTo: email,
       text: `

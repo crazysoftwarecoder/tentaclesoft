@@ -32,6 +32,7 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     try {
+      console.log('Submitting form with data:', formData);
       const response = await fetch('/api/send', {
         method: 'POST',
         headers: {
@@ -41,9 +42,10 @@ export default function ContactPage() {
       })
 
       const data = await response.json()
+      console.log('Response from server:', data);
 
       if (!data.success) {
-        throw new Error('Failed to send email')
+        throw new Error(data.error || 'Failed to send email')
       }
 
       toast({
@@ -59,9 +61,10 @@ export default function ContactPage() {
         message: "",
       })
     } catch (error) {
+      console.error('Error sending message:', error);
       toast({
         title: "Something went wrong!",
-        description: "Please try again later.",
+        description: error instanceof Error ? error.message : "Please try again later.",
         variant: "destructive",
       })
     } finally {

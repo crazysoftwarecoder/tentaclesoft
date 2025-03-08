@@ -32,17 +32,31 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     try {
-      console.log('Submitting form with data:', formData);
-      const response = await fetch('/api/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
+      console.log('Starting form submission...');
+      
+      let response;
+      try {
+        response = await fetch('/api/send', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+        console.log('Fetch response status:', response.status);
+      } catch (fetchError) {
+        console.error('Network error:', fetchError);
+        throw new Error('Network error occurred while sending message');
+      }
 
-      const data = await response.json()
-      console.log('Response from server:', data);
+      let data;
+      try {
+        data = await response.json();
+        console.log('Response data:', data);
+      } catch (jsonError) {
+        console.error('Error parsing response:', jsonError);
+        throw new Error('Invalid response from server');
+      }
 
       if (!data.success) {
         throw new Error(data.error || 'Failed to send email')
@@ -61,7 +75,7 @@ export default function ContactPage() {
         message: "",
       })
     } catch (error) {
-      console.error('Error sending message:', error);
+      console.error('Form submission error:', error);
       toast({
         title: "Something went wrong!",
         description: error instanceof Error ? error.message : "Please try again later.",

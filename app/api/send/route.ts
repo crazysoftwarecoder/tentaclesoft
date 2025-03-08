@@ -1,14 +1,20 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
+// Log on module load
+console.log('API Route module loaded');
+
 const resend = new Resend('re_jZTVUQVz_MKPKNDuuuAfZPT6pcR7cvRcK');
 
 export async function POST(request: Request) {
+  // Basic console log that should appear in server logs
+  console.log('POST /api/send - received request');
+  
   try {
-    console.log('Received request to send email');
-    const { name, email, subject, message } = await request.json();
-    
-    console.log('Sending email with data:', { name, email, subject });
+    const body = await request.json();
+    console.log('Request body:', body);
+
+    const { name, email, subject, message } = body;
 
     const data = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
@@ -25,10 +31,10 @@ ${message}
       `,
     });
 
-    console.log('Email sent successfully:', data);
+    console.log('Resend API response:', data);
     return NextResponse.json({ success: true, data });
   } catch (error) {
-    console.error('Failed to send email:', error);
+    console.error('Error details:', error);
     return NextResponse.json(
       { 
         success: false, 

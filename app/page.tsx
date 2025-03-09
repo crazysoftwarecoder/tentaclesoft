@@ -16,7 +16,7 @@ export default function Home() {
                   Turning Ideas Into World-Class Software
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-lg">
-                We are the top 1% of engineers, building high-quality POCs and MVPs—then taking them all the way to production and beyond. With a proven track record of delivering scalable solutions for flagship tech companies, we provide end-to-end development and post-production support to ensure long-term success.
+                We are a Sydney based team of experienced developers that have decades of experience building high-quality POCs and MVPs—then taking them all the way to production and beyond. With a proven track record of delivering scalable solutions for flagship tech companies, we provide end-to-end development and post-production support to ensure long-term success.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

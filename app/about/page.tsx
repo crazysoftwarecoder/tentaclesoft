@@ -14,7 +14,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Tentacle Soft</h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl">
-                We're a team of passionate developers dedicated to building high-quality software solutions.
+                We're a team of passionate developers based in Sydney, Australia, dedicated to building high-quality software solutions.
               </p>
             </div>
           </div>

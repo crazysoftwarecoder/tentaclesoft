@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" fill="none">
+  <!-- Accurate Australia outline -->
+  <path d="
+    M330,135 L340,130 L355,128 L365,125 L378,127 L390,124 L402,126 L415,123
+    L428,125 L440,122 L450,124 L462,120 L472,118 L480,115 L490,112
+    L498,110 L510,108 L520,110 L528,108 L538,112 L548,110 L558,115
+    L565,118 L572,122 L580,120 L590,125 L598,128 L605,132 L612,130
+    L618,135 L625,132 L632,138 L638,135 L645,140 L650,138
+    L658,142 L665,145 L670,150 L675,155 L680,160
+    L682,168 L680,175 L678,182 L680,190 L682,198
+    L685,205 L688,212 L690,220 L688,228 L685,235
+    L682,240 L680,248 L678,255 L680,262 L685,268
+    L690,272 L698,275 L705,280 L710,285 L712,290
+    L708,295 L702,298 L695,300 L688,305 L682,310
+    L678,315 L680,322 L685,328 L690,332 L698,335
+    L705,340 L710,345 L715,350 L718,355 L720,362
+    L718,368 L715,375 L710,380 L705,385 L700,390
+    L695,395 L690,400 L685,405 L680,408 L675,412
+    L668,415 L660,420 L652,425 L645,428 L638,432
+    L630,435 L622,438 L615,440 L608,445 L600,448
+    L592,452 L585,455 L578,458 L570,462 L562,465
+    L555,468 L548,472 L540,475 L530,478 L520,480
+    L512,485 L505,490 L498,495 L492,500 L488,508
+    L485,515 L482,522 L480,530 L478,538 L475,545
+    L470,550 L465,555 L458,558 L450,560 L442,562
+    L435,565 L428,568 L420,570 L412,572 L405,575
+    L398,578 L390,582 L382,585 L375,588 L368,590
+    L360,592 L352,595 L345,598 L338,600 L330,602
+    L322,605 L315,608 L308,610 L300,612 L292,615
+    L285,618 L278,620 L270,618 L262,615 L255,612
+    L248,610 L242,612 L235,615 L228,618 L220,620
+    L212,618 L205,615 L198,610 L192,605 L188,600
+    L185,595 L182,588 L180,582 L178,575 L175,568
+    L172,560 L170,552 L168,545 L165,538 L162,530
+    L160,522 L158,515 L160,508 L162,500 L165,492
+    L168,485 L172,478 L175,470 L178,462 L180,455
+    L182,448 L185,440 L188,432 L192,425 L195,418
+    L198,410 L200,402 L205,395 L210,390 L215,385
+    L220,378 L225,372 L230,365 L238,360 L245,355
+    L252,350 L258,345 L265,340 L270,335 L275,328
+    L278,320 L280,312 L278,305 L275,298 L272,290
+    L270,282 L268,275 L270,268 L275,262 L280,258
+    L288,255 L295,252 L302,250 L308,248 L315,245
+    L320,240 L322,232 L318,225 L315,218 L312,210
+    L310,202 L312,195 L315,188 L318,182 L320,175
+    L322,168 L325,160 L328,152 L330,145 L330,135 Z
+  "
+  stroke="rgba(92,124,250,0.3)"
+  stroke-width="1.5"
+  fill="rgba(92,124,250,0.04)"
+  stroke-linejoin="round"
+  />
+
+  <!-- Tasmania -->
+  <path d="
+    M520,620 L528,615 L538,612 L548,614 L558,618 L565,625
+    L568,632 L565,640 L558,648 L550,652 L542,655
+    L535,652 L528,648 L522,642 L518,635 L518,628 L520,620 Z
+  "
+  stroke="rgba(92,124,250,0.25)"
+  stroke-width="1.2"
+  fill="rgba(92,124,250,0.03)"
+  stroke-linejoin="round"
+  />
+
+  <!-- Gulf of Carpentaria indent -->
+  <path d="
+    M450,124 L448,135 L445,145 L442,155 L440,165
+    L442,175 L445,185 L448,192 L452,198 L458,202
+    L465,205 L472,202 L478,198 L482,192 L485,185
+    L488,175 L490,165 L488,155 L485,145 L482,135
+    L480,128 L480,115
+  "
+  stroke="rgba(92,124,250,0.2)"
+  stroke-width="1"
+  fill="none"
+  stroke-linejoin="round"
+  />
+
+  <!-- Cape York Peninsula detail -->
+  <path d="
+    M490,112 L492,105 L495,98 L498,92 L502,86 L505,80
+    L508,75 L510,70 L510,108
+  "
+  stroke="rgba(92,124,250,0.2)"
+  stroke-width="1"
+  fill="none"
+  stroke-linejoin="round"
+  />
+
+  <!-- Sydney location - pulsing dot on east coast (NSW area) -->
+  <circle cx="698" cy="420" r="40" fill="none" stroke="rgba(92,124,250,0.08)" stroke-width="1">
+    <animate attributeName="r" from="20" to="50" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.3" to="0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="698" cy="420" r="28" fill="none" stroke="rgba(92,124,250,0.12)" stroke-width="1">
+    <animate attributeName="r" from="14" to="35" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" from="0.4" to="0" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+
+  <!-- Sydney pin -->
+  <circle cx="698" cy="420" r="14" fill="rgba(92,124,250,0.08)"/>
+  <circle cx="698" cy="420" r="6" fill="rgba(92,124,250,0.25)" stroke="rgba(92,124,250,0.5)" stroke-width="1.5"/>
+  <circle cx="698" cy="420" r="2.5" fill="rgba(92,124,250,0.9)"/>
+
+  <!-- Sydney label -->
+  <text x="722" y="416" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="rgba(92,124,250,0.5)" letter-spacing="0.1em">SYDNEY</text>
+  <line x1="706" y1="420" x2="720" y2="416" stroke="rgba(92,124,250,0.3)" stroke-width="0.8"/>
+
+  <!-- Other capital city dots -->
+  <circle cx="540" cy="555" r="1.5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="485" cy="530" r="1.5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="345" cy="590" r="1.5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="225" cy="535" r="1.5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="268" cy="275" r="1.5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="542" cy="638" r="1.5" fill="rgba(255,255,255,0.12)"/>
+</svg>

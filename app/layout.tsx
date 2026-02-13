@@ -79,6 +79,17 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2DZDYL3VCN" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-2DZDYL3VCN');
+            `,
+          }}
+        />
       </head>
       <body className="bg-gray-950 text-white min-h-screen">{children}</body>
     </html>

@@ -33,7 +33,10 @@ export default function JsonLd() {
     ],
     priceRange: "$$$$",
     openingHours: "Mo-Fr 09:00-18:00",
-    sameAs: [],
+    sameAs: [
+      "https://www.linkedin.com/in/ashwanthf/",
+      "https://calendly.com/ashyferny/30min",
+    ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Software Consulting Services",

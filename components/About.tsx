@@ -1,7 +1,7 @@
 const stats = [
   { value: "15+", label: "Years Experience" },
   { value: "50+", label: "Projects Delivered" },
-  { value: "100M+", label: "Users Served" },
+  { value: "100M+", label: "Platforms Serving Users" },
   { value: "4.9/5", label: "Client Rating" },
 ];
 
@@ -61,6 +61,26 @@ export default function About() {
             </div>
 
             <div className="glass-card p-8">
+              <h3 className="text-sm font-semibold tracking-widest uppercase text-brand-400 mb-5">
+                Industries
+              </h3>
+              <div className="flex flex-wrap gap-3 mb-8">
+                {[
+                  "E-Commerce",
+                  "Developer Tools",
+                  "AI / ML",
+                  "Consumer Platforms",
+                  "Search & Discovery",
+                  "SaaS",
+                ].map((industry) => (
+                  <span
+                    key={industry}
+                    className="px-4 py-2 rounded-lg bg-brand-600/10 border border-brand-500/20 text-sm text-brand-300 font-medium"
+                  >
+                    {industry}
+                  </span>
+                ))}
+              </div>
               <h3 className="text-sm font-semibold tracking-widest uppercase text-brand-400 mb-5">
                 Tech We Work With
               </h3>

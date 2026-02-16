@@ -4,11 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://tentaclesoftware.com"),
   title: {
-    default: "Tentacle Software | Elite Software Consulting",
+    default: "Tentacle Software | Expert Software Consulting",
     template: "%s | Tentacle Software",
   },
   description:
-    "Elite software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching. Build better software, faster.",
+    "Expert software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching. Build better software, faster.",
   keywords: [
     "software consulting",
     "custom software development",
@@ -33,23 +33,23 @@ export const metadata: Metadata = {
     locale: "en_AU",
     url: "https://tentaclesoftware.com",
     siteName: "Tentacle Software",
-    title: "Tentacle Software | Elite Software Consulting",
+    title: "Tentacle Software | Expert Software Consulting",
     description:
-      "Elite software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
+      "Expert software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tentacle Software - Elite Software Consulting",
+        alt: "Tentacle Software - Expert Software Consulting",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tentacle Software | Elite Software Consulting",
+    title: "Tentacle Software | Expert Software Consulting",
     description:
-      "Elite software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
+      "Expert software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
     images: ["/og-image.png"],
   },
   robots: {

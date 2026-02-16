@@ -4,7 +4,7 @@ export default function JsonLd() {
     "@type": "ProfessionalService",
     name: "Tentacle Software",
     description:
-      "Elite software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
+      "Expert software consulting. High-performance web platforms, cloud-native APIs, AI automation, and engineering team coaching.",
     url: "https://tentaclesoftware.com",
     logo: "https://tentaclesoftware.com/icon.svg",
     image: "https://tentaclesoftware.com/og-image.png",

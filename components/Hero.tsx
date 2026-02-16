@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-600/10 border border-brand-500/20 text-brand-300 text-sm font-medium mb-8">
           <span className="w-2 h-2 rounded-full bg-brand-400 animate-pulse" />
-          Sydney, Australia &middot; Elite Software Consulting
+          Sydney, Australia &middot; Expert Software Consulting
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-8">

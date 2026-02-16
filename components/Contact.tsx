@@ -42,6 +42,16 @@ export default function Contact() {
           30-minute video call &middot; No commitment &middot; Actionable
           insights guaranteed
         </p>
+
+        <p className="mt-8 text-gray-500 text-sm">
+          Prefer email?{" "}
+          <a
+            href="mailto:ashyferny@gmail.com"
+            className="text-brand-400 hover:text-brand-300 transition-colors"
+          >
+            ashyferny@gmail.com
+          </a>
+        </p>
       </div>
     </section>
   );

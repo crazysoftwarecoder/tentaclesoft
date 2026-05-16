@@ -13,9 +13,9 @@ export default function Hero() {
         <img
           src="/sydney.png"
           alt=""
-          className="w-full h-full object-cover opacity-20 brightness-75"
+          className="w-full h-full object-cover opacity-35 brightness-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-950/60 via-gray-950/40 to-gray-950/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-950/55 via-gray-950/40 to-gray-950/75" />
       </div>
 
       {/* Grid pattern overlay */}

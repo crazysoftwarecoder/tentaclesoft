@@ -44,7 +44,7 @@ export default function Footer() {
 
           <p className="text-sm text-gray-600">
             &copy; {new Date().getFullYear()} Tentacle Software. Sydney,
-            Australia. All rights reserved.
+            Australia. ABN 13 659 240 605. All rights reserved.
           </p>
         </div>
       </div>
